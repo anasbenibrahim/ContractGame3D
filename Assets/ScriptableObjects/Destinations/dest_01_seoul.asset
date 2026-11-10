@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ee2c42d0c45bad81b4e4bf8765b5d47, type: 3}
+  m_Name: dest_01_seoul
+  m_EditorClassIdentifier: Contract.Data::Contract.Data.DestinationData
+  <destinationId>k__BackingField: dest_seoul
+  <displayName>k__BackingField: Seoul
+  <koreanName>k__BackingField: "\uC11C\uC6B8"
+  <description>k__BackingField: 'The capital: glass towers and neon in Gangnam, street food and cosmetics shops under stacked Hangul signs in Myeongdong, hanok alleys in Bukchon and the late-night streets of Hongdae.'
+  <preview>k__BackingField: {fileID: 2800000, guid: 06d0fbd6309c6c1758d399a8b5537cda, type: 3}
+  <unlockCost>k__BackingField: 0
+  <unlockedByDefault>k__BackingField: 1
+  <districts>k__BackingField:
+  - {fileID: 11400000, guid: 7fd712e40e3f6d055bcdb4c603ec4a43, type: 2}
+  - {fileID: 11400000, guid: 88604760cfc955d89a3ec0278bfc9789, type: 2}
+  - {fileID: 11400000, guid: fe356f0b97ff208b68a8e6de1ea3edd7, type: 2}
+  <plannedDistricts>k__BackingField:
+  - "Hongdae \uD64D\uB300"
+  <loadingTips>k__BackingField:
+  - "\uBA85\uB3D9 \xB7 Myeongdong: the street-food carts open at dusk \u2014 crowds give you cover."
+  - "\uAC15\uB0A8 \xB7 Gangnam: guards watch the office lobbies; staff passes open restricted floors."
+  - "Stay out of restricted areas when guards are looking \u2014 suspicion builds fast."
+  <themeColor>k__BackingField: {r: 0.9, g: 0.16, b: 0.22, a: 1}

@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98c635fc825f105dabb8d6d2e6aeaea4, type: 3}
+  m_Name: char_ryan_blake
+  m_EditorClassIdentifier: Contract.Data::Contract.Data.CharacterData
+  <characterId>k__BackingField: char_ryan_blake
+  <displayName>k__BackingField: Ryan Blake
+  <specialty>k__BackingField: Intelligence
+  <description>k__BackingField: Analyst turned field agent. Superior information gathering and hacking abilities.
+  <characterPreviewPrefab>k__BackingField: {fileID: 0}
+  <avatarSprite>k__BackingField: {fileID: 0}
+  <themeColor>k__BackingField: {r: 0.2, g: 1, b: 0.3, a: 1}
+  <appearance>k__BackingField:
+    heightScale: 1
+    shoulderWidth: 0.97
+    skinTone: {r: 0.9, g: 0.75, b: 0.63, a: 1}
+    hairStyle: 2
+    hairColor: {r: 0.07, g: 0.05, b: 0.04, a: 1}
+    outfit: 2
+    topColor: {r: 0.16, g: 0.17, b: 0.19, a: 1}
+    innerColor: {r: 0.93, g: 0.93, b: 0.95, a: 1}
+    bottomColor: {r: 0.16, g: 0.17, b: 0.19, a: 1}
+    shoeColor: {r: 0.16, g: 0.09, b: 0.05, a: 1}
+    accentColor: {r: 0.5, g: 0.06, b: 0.1, a: 1}
+    glasses: 1
+    faceMask: 0
+    crossBodyBag: 0
+  <moveSpeed>k__BackingField: 75
+  <sprintSpeed>k__BackingField: 80
+  <stealthRating>k__BackingField: 80
+  <intelligence>k__BackingField: 95
+  <suspicionDecay>k__BackingField: 70
+  <suspicionBuildRate>k__BackingField: 50
+  <interactionRange>k__BackingField: 95
+  <lockpickChance>k__BackingField: 95
+  <startingMoney>k__BackingField: 10000
+  <unlockedByDefault>k__BackingField: 0
+  <unlockRequirement>k__BackingField: 
+  <unlockCost>k__BackingField: 50000

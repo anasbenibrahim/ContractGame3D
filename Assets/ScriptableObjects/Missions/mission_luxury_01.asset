@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af3d20b58d8cf8c59a510781db4076d8, type: 3}
+  m_Name: mission_luxury_01
+  m_EditorClassIdentifier: Contract.Data::Contract.Data.MissionData
+  <missionId>k__BackingField: mission_luxury_01
+  <missionName>k__BackingField: High Society
+  <description>k__BackingField: Infiltrate an exclusive gala and place a listening device in a fraud ring leader's penthouse.
+  <regionId>k__BackingField: region_luxury
+  <subjectId>k__BackingField: subject_crime_lord_jung
+  <subjectName>k__BackingField: Jung Tae-sik
+  <category>k__BackingField: 0
+  <koreanName>k__BackingField: 
+  <requiredItemIds>k__BackingField: []
+  <minLevel>k__BackingField: 0
+  <requiresRegionUnlocked>k__BackingField: 1
+  <objectives>k__BackingField:
+  - <objectiveId>k__BackingField: obj_enter_gala
+    <description>k__BackingField: Enter the gala
+    <type>k__BackingField: 0
+    <targetId>k__BackingField: 
+    <targetLocationId>k__BackingField: gala_venue
+    <isOptional>k__BackingField: 0
+    <targetValue>k__BackingField: 0
+    <isCompleted>k__BackingField: 0
+  - <objectiveId>k__BackingField: obj_locate_crimelord
+    <description>k__BackingField: Locate the ring leader
+    <type>k__BackingField: 3
+    <targetId>k__BackingField: jung_taesik
+    <targetLocationId>k__BackingField: 
+    <isOptional>k__BackingField: 0
+    <targetValue>k__BackingField: 0
+    <isCompleted>k__BackingField: 0
+  - <objectiveId>k__BackingField: obj_plant_device
+    <description>k__BackingField: Plant the listening device
+    <type>k__BackingField: 2
+    <targetId>k__BackingField: penthouse_office
+    <targetLocationId>k__BackingField: 
+    <isOptional>k__BackingField: 0
+    <targetValue>k__BackingField: 0
+    <isCompleted>k__BackingField: 0
+  - <objectiveId>k__BackingField: obj_extract9
+    <description>k__BackingField: Reach extraction point
+    <type>k__BackingField: 7
+    <targetId>k__BackingField: 
+    <targetLocationId>k__BackingField: extraction_luxury
+    <isOptional>k__BackingField: 0
+    <targetValue>k__BackingField: 0
+    <isCompleted>k__BackingField: 0
+  <rewardMoney>k__BackingField: 75000
+  <rewardItemIds>k__BackingField: []
+  <rewardUpgradeIds>k__BackingField: []
+  <rewardXP>k__BackingField: 400
+  <unlocksMissionIds>k__BackingField: []
+  <unlockRegionId>k__BackingField: 
+  <unlockedByDefault>k__BackingField: 0
+  <difficulty>k__BackingField: 4
+  <timeLimitMinutes>k__BackingField: 25
+  <initialState>k__BackingField: 0
+  <repeatable>k__BackingField: 0

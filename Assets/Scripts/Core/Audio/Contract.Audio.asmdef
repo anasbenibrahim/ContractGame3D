@@ -1,0 +1,17 @@
+{
+	"name": "Contract.Audio",
+	"references": [
+		"Contract.Core",
+		"Contract.Contracts",
+		"Contract.Data",
+		"UnityEngine.CoreModule",
+		"UnityEngine.AudioModule"
+	],
+	"includePlatforms": [],
+	"excludePlatforms": [],
+	"allowUnsafeCode": false,
+	"overrideReferences": false,
+	"precompiledReferences": [],
+	"autoReferenced": true,
+	"defineConstraints": []
+}

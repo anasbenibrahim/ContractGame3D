@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af3d20b58d8cf8c59a510781db4076d8, type: 3}
+  m_Name: mission_downtown_01
+  m_EditorClassIdentifier: Contract.Data::Contract.Data.MissionData
+  <missionId>k__BackingField: mission_downtown_01
+  <missionName>k__BackingField: The Missing Documents
+  <description>k__BackingField: Retrieve classified documents from a corporate office before they're destroyed.
+  <regionId>k__BackingField: region_downtown
+  <subjectId>k__BackingField: subject_ceo_kim
+  <subjectName>k__BackingField: CEO Kim Min-jun
+  <requiredItemIds>k__BackingField: []
+  <minLevel>k__BackingField: 0
+  <requiresRegionUnlocked>k__BackingField: 1
+  <objectives>k__BackingField:
+  - <objectiveId>k__BackingField: obj_reach_office
+    <description>k__BackingField: Find the corporate office
+    <type>k__BackingField: 0
+    <targetId>k__BackingField: 
+    <targetLocationId>k__BackingField: office_building
+    <isOptional>k__BackingField: 0
+    <isCompleted>k__BackingField: 0
+  - <objectiveId>k__BackingField: obj_access_terminal
+    <description>k__BackingField: Access the secure terminal
+    <type>k__BackingField: 2
+    <targetId>k__BackingField: secure_terminal
+    <targetLocationId>k__BackingField: 
+    <isOptional>k__BackingField: 0
+    <isCompleted>k__BackingField: 0
+  - <objectiveId>k__BackingField: obj_collect_docs
+    <description>k__BackingField: Retrieve the documents
+    <type>k__BackingField: 1
+    <targetId>k__BackingField: documents_evidence
+    <targetLocationId>k__BackingField: 
+    <isOptional>k__BackingField: 0
+    <isCompleted>k__BackingField: 0
+  - <objectiveId>k__BackingField: obj_extract
+    <description>k__BackingField: Reach extraction point
+    <type>k__BackingField: 7
+    <targetId>k__BackingField: 
+    <targetLocationId>k__BackingField: extraction_downtown
+    <isOptional>k__BackingField: 0
+    <isCompleted>k__BackingField: 0
+  <rewardMoney>k__BackingField: 15000
+  <rewardItemIds>k__BackingField: []
+  <rewardUpgradeIds>k__BackingField: []
+  <rewardXP>k__BackingField: 100
+  <difficulty>k__BackingField: 1
+  <timeLimitMinutes>k__BackingField: 15
+  <initialState>k__BackingField: 0
+  <repeatable>k__BackingField: 0

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ee2c42d0c45bad81b4e4bf8765b5d47, type: 3}
+  m_Name: dest_06_jeju
+  m_EditorClassIdentifier: Contract.Data::Contract.Data.DestinationData
+  <destinationId>k__BackingField: dest_jeju
+  <displayName>k__BackingField: Jeju
+  <koreanName>k__BackingField: "\uC81C\uC8FC"
+  <description>k__BackingField: 'Volcanic island: basalt stone walls, tangerine orchards and the sunrise crater of Seongsan Ilchulbong.'
+  <preview>k__BackingField: {fileID: 0}
+  <unlockCost>k__BackingField: 200000
+  <unlockedByDefault>k__BackingField: 0
+  <districts>k__BackingField: []
+  <plannedDistricts>k__BackingField:
+  - "Seongsan \uC131\uC0B0"
+  - "Jeju City \uC81C\uC8FC\uC2DC"
+  <loadingTips>k__BackingField: []
+  <themeColor>k__BackingField: {r: 0.3, g: 0.7, b: 0.45, a: 1}

@@ -1,0 +1,22 @@
+{
+    "name": "Contract.Player",
+    "references": [
+        "Contract.Core",
+        "Contract.Data",
+        "Contract.Interaction",
+        "Contract.Contracts",
+        "Contract.VFX",
+        "UnityEngine.CoreModule",
+        "Unity.InputSystem",
+        "UnityEngine.AIModule",
+        "UnityEngine.AnimationModule",
+        "Contract.Activity"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

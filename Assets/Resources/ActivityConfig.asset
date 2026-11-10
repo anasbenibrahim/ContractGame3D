@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c588cb24ad13493e89d213a8019b2ba1, type: 3}
+  m_Name: ActivityConfig
+  m_EditorClassIdentifier: Contract.Activity::Contract.Activity.ActivityConfig
+  filter:
+    maxAccuracy: 25
+    minMove: 3
+    accuracyFactor: 0.6
+    maxStep: 12
+    maxSpeed: 4.5
+    processNoise: 2.5
+    window: 25
+    minWalkSpeed: 0.5
+    earlyConfirm: 6
+    awayFactor: 2.5
+    vehicleFixes: 3
+  maxContinuityGap: 90
+  speedWindow: 20
+  catchUpDistance: 12

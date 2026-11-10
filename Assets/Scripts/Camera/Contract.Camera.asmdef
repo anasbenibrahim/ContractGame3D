@@ -1,0 +1,16 @@
+{
+	"name": "Contract.Camera",
+	"references": [
+		"Contract.Core",
+		"Contract.Player",
+		"UnityEngine.CoreModule",
+		"Unity.InputSystem"
+	],
+	"includePlatforms": [],
+	"excludePlatforms": [],
+	"allowUnsafeCode": false,
+	"overrideReferences": false,
+	"precompiledReferences": [],
+	"autoReferenced": true,
+	"defineConstraints": []
+}

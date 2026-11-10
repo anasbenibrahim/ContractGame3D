@@ -1,0 +1,14 @@
+{
+	"name": "Contract.Localization",
+	"references": [
+		"Contract.Core",
+		"UnityEngine.CoreModule"
+	],
+	"includePlatforms": [],
+	"excludePlatforms": [],
+	"allowUnsafeCode": false,
+	"overrideReferences": false,
+	"precompiledReferences": [],
+	"autoReferenced": true,
+	"defineConstraints": []
+}

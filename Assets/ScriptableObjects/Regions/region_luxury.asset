@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8eb87b0ce225c52e19ec91a738f6eefc, type: 3}
+  m_Name: region_luxury
+  m_EditorClassIdentifier: Contract.Data::Contract.Data.RegionData
+  <regionId>k__BackingField: region_luxury
+  <regionName>k__BackingField: "Haeundae \uD574\uC6B4\uB300"
+  <description>k__BackingField: 'Busan''s beachfront: luxury hotels, the marina and glass towers over the sand.'
+  <sceneName>k__BackingField: GameWorld
+  <atmosphereColor>k__BackingField: {r: 0.15, g: 0.12, b: 0.05, a: 1}
+  <regionIcon>k__BackingField: {fileID: 0}
+  <unlockedByDefault>k__BackingField: 0
+  <requiredRegionIds>k__BackingField:
+  - region_industrial
+  - region_residential
+  <unlockCost>k__BackingField: 100000
+  <completionBonus>k__BackingField: 250000
+  <districtBuilt>k__BackingField: 0
+  <missionIds>k__BackingField:
+  - mission_luxury_01
+  - mission_luxury_02
+  <safehouseId>k__BackingField: safehouse_luxury
+  <extractionId>k__BackingField: extraction_luxury
+  <civilianNPCCount>k__BackingField: 10
+  <missionNPCCount>k__BackingField: 3
+  <centerPosition>k__BackingField: {x: 0, y: 0, z: 200}
+  <regionSize>k__BackingField: {x: 100, y: 20, z: 100}

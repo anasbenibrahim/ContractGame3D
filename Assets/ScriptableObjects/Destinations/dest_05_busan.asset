@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ee2c42d0c45bad81b4e4bf8765b5d47, type: 3}
+  m_Name: dest_05_busan
+  m_EditorClassIdentifier: Contract.Data::Contract.Data.DestinationData
+  <destinationId>k__BackingField: dest_busan
+  <displayName>k__BackingField: Busan
+  <koreanName>k__BackingField: "\uBD80\uC0B0"
+  <description>k__BackingField: 'Korea''s harbour city: Haeundae beach towers, the lit-up Gwangan Bridge over Gwangalli, the container docks and the painted hillside of Gamcheon.'
+  <preview>k__BackingField: {fileID: 0}
+  <unlockCost>k__BackingField: 150000
+  <unlockedByDefault>k__BackingField: 0
+  <districts>k__BackingField:
+  - {fileID: 11400000, guid: c73c1ed531be2dee1a909163a7c4dc3d, type: 2}
+  - {fileID: 11400000, guid: 80744d04b658aba068dec3b28f24d013, type: 2}
+  <plannedDistricts>k__BackingField:
+  - "Gwangalli \uAD11\uC548\uB9AC"
+  - "Gamcheon \uAC10\uCC9C\uBB38\uD654\uB9C8\uC744"
+  <loadingTips>k__BackingField: []
+  <themeColor>k__BackingField: {r: 0.15, g: 0.45, b: 0.85, a: 1}

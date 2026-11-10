@@ -1,0 +1,31 @@
+{
+    "name": "Contract.UI",
+    "references": [
+        "Contract.Core",
+        "Contract.Data",
+        "Contract.Contracts",
+        "Contract.Character",
+        "Contract.Items",
+        "Contract.Player",
+        "Contract.Missions",
+        "Contract.Regions",
+        "Contract.Economy",
+        "Contract.Progression",
+        "Contract.Map",
+        "Contract.NPCs",
+        "Contract.SaveSystem",
+        "UnityEngine.CoreModule",
+        "UnityEngine.UIModule",
+        "Unity.InputSystem",
+        "Unity.TextMeshPro",
+        "Contract.Interaction",
+        "Contract.Activity"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

@@ -112,3 +112,10 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# Contract stage setup markers
+/ProjectSettings/ContractStage*.done
+
+# IL2CPP / Burst build backups next to player builds (hundreds of MB each; never commit)
+*_BackUpThisFolder_ButDontShipItWithYourGame/
+*_BurstDebugInformation_DoNotShip/

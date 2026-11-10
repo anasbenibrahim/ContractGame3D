@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1ea61d12ab2d03cfb506a32d977702d, type: 3}
+  m_Name: MobileQualityProfile
+  m_EditorClassIdentifier: Contract.Performance::Contract.Performance.MobileQualityProfile
+  tiers:
+  - name: Low
+    pipeline: {fileID: 11400000, guid: d36b49c95f573503eb3a083468aaebed, type: 2}
+    lodBias: 0.6
+    maxCivilians: 10
+    postProcessing: 0
+  - name: Medium
+    pipeline: {fileID: 11400000, guid: 001ce29e5df89cef6803c80c2817145e, type: 2}
+    lodBias: 0.9
+    maxCivilians: 16
+    postProcessing: 1
+  - name: High
+    pipeline: {fileID: 11400000, guid: 9f883d5698103afa5826273f90000530, type: 2}
+    lodBias: 1.2
+    maxCivilians: 24
+    postProcessing: 1

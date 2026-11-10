@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f4b679c07e50e2d9baf653281562eee, type: 3}
+  m_Name: master_keycard
+  m_EditorClassIdentifier: Contract.Data::Contract.Data.ItemData
+  <itemId>k__BackingField: master_keycard
+  <displayName>k__BackingField: Master Keycard
+  <description>k__BackingField: Opens all keycard-locked doors in the region.
+  <type>k__BackingField: 0
+  <isConsumable>k__BackingField: 0
+  maxStack: 1
+  <sellPrice>k__BackingField: 5000
+  <buyPrice>k__BackingField: 10000
+  <icon>k__BackingField: {fileID: 0}
+  <worldPrefab>k__BackingField: {fileID: 0}
+  <suspicionReduction>k__BackingField: 0
+  <staminaRestore>k__BackingField: 0

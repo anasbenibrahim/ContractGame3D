@@ -1,0 +1,19 @@
+{
+	"name": "Contract.Accessibility",
+	"references": [
+		"Contract.Core",
+		"Contract.Contracts",
+		"Contract.Player",
+		"Contract.VFX",
+		"UnityEngine.CoreModule",
+		"UnityEngine.UIModule",
+		"UnityEngine.UI"
+	],
+	"includePlatforms": [],
+	"excludePlatforms": [],
+	"allowUnsafeCode": false,
+	"overrideReferences": false,
+	"precompiledReferences": [],
+	"autoReferenced": true,
+	"defineConstraints": []
+}

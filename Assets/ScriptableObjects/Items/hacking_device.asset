@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f4b679c07e50e2d9baf653281562eee, type: 3}
+  m_Name: hacking_device
+  m_EditorClassIdentifier: Contract.Data::Contract.Data.ItemData
+  <itemId>k__BackingField: hacking_device
+  <displayName>k__BackingField: Hacking Device
+  <description>k__BackingField: Reduces hacking time by 40%.
+  <type>k__BackingField: 3
+  <isConsumable>k__BackingField: 0
+  maxStack: 1
+  <sellPrice>k__BackingField: 5000
+  <buyPrice>k__BackingField: 15000
+  <icon>k__BackingField: {fileID: 0}
+  <worldPrefab>k__BackingField: {fileID: 0}
+  <suspicionReduction>k__BackingField: 0
+  <staminaRestore>k__BackingField: 0

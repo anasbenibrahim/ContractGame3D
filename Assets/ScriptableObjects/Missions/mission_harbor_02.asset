@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af3d20b58d8cf8c59a510781db4076d8, type: 3}
+  m_Name: mission_harbor_02
+  m_EditorClassIdentifier: Contract.Data::Contract.Data.MissionData
+  <missionId>k__BackingField: mission_harbor_02
+  <missionName>k__BackingField: Endgame
+  <description>k__BackingField: Expose the mastermind behind the conspiracy. Final extraction.
+  <regionId>k__BackingField: region_harbor
+  <subjectId>k__BackingField: subject_mastermind
+  <subjectName>k__BackingField: The Director
+  <category>k__BackingField: 0
+  <koreanName>k__BackingField: 
+  <requiredItemIds>k__BackingField: []
+  <minLevel>k__BackingField: 0
+  <requiresRegionUnlocked>k__BackingField: 1
+  <objectives>k__BackingField:
+  - <objectiveId>k__BackingField: obj_reach_command
+    <description>k__BackingField: Reach the command center
+    <type>k__BackingField: 0
+    <targetId>k__BackingField: 
+    <targetLocationId>k__BackingField: command_center
+    <isOptional>k__BackingField: 0
+    <targetValue>k__BackingField: 0
+    <isCompleted>k__BackingField: 0
+  - <objectiveId>k__BackingField: obj_confront_director
+    <description>k__BackingField: Record the Director's confession
+    <type>k__BackingField: 3
+    <targetId>k__BackingField: director
+    <targetLocationId>k__BackingField: 
+    <isOptional>k__BackingField: 0
+    <targetValue>k__BackingField: 0
+    <isCompleted>k__BackingField: 0
+  - <objectiveId>k__BackingField: obj_upload_evidence
+    <description>k__BackingField: Upload the evidence
+    <type>k__BackingField: 2
+    <targetId>k__BackingField: evidence_server
+    <targetLocationId>k__BackingField: 
+    <isOptional>k__BackingField: 0
+    <targetValue>k__BackingField: 0
+    <isCompleted>k__BackingField: 0
+  - <objectiveId>k__BackingField: obj_extract12
+    <description>k__BackingField: Final extraction
+    <type>k__BackingField: 7
+    <targetId>k__BackingField: 
+    <targetLocationId>k__BackingField: extraction_harbor
+    <isOptional>k__BackingField: 0
+    <targetValue>k__BackingField: 0
+    <isCompleted>k__BackingField: 0
+  <rewardMoney>k__BackingField: 200000
+  <rewardItemIds>k__BackingField: []
+  <rewardUpgradeIds>k__BackingField: []
+  <rewardXP>k__BackingField: 1000
+  <unlocksMissionIds>k__BackingField: []
+  <unlockRegionId>k__BackingField: 
+  <unlockedByDefault>k__BackingField: 0
+  <difficulty>k__BackingField: 5
+  <timeLimitMinutes>k__BackingField: 30
+  <initialState>k__BackingField: 0
+  <repeatable>k__BackingField: 0

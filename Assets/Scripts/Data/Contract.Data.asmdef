@@ -1,0 +1,13 @@
+{
+	"name": "Contract.Data",
+	"references": [
+		"UnityEngine.CoreModule"
+	],
+	"includePlatforms": [],
+	"excludePlatforms": [],
+	"allowUnsafeCode": false,
+	"overrideReferences": false,
+	"precompiledReferences": [],
+	"autoReferenced": true,
+	"defineConstraints": []
+}

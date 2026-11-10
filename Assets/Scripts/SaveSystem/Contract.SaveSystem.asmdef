@@ -1,0 +1,16 @@
+{
+    "name": "Contract.SaveSystem",
+    "references": [
+        "Contract.Core",
+        "Contract.Contracts",
+        "UnityEngine.CoreModule",
+        "Contract.Data"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

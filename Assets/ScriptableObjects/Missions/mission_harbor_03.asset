@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af3d20b58d8cf8c59a510781db4076d8, type: 3}
+  m_Name: mission_harbor_03
+  m_EditorClassIdentifier: Contract.Data::Contract.Data.MissionData
+  <missionId>k__BackingField: mission_harbor_03
+  <missionName>k__BackingField: Loose Ends
+  <description>k__BackingField: Recover the last pieces of evidence and hand the smuggling network to the press.
+  <regionId>k__BackingField: region_harbor
+  <subjectId>k__BackingField: subject_lieutenant_kim
+  <subjectName>k__BackingField: Lieutenant Kim
+  <category>k__BackingField: 0
+  <koreanName>k__BackingField: 
+  <requiredItemIds>k__BackingField: []
+  <minLevel>k__BackingField: 0
+  <requiresRegionUnlocked>k__BackingField: 1
+  <objectives>k__BackingField:
+  - <objectiveId>k__BackingField: obj_clear_warehouse
+    <description>k__BackingField: Search the warehouse district
+    <type>k__BackingField: 0
+    <targetId>k__BackingField: 
+    <targetLocationId>k__BackingField: warehouse_district
+    <isOptional>k__BackingField: 0
+    <targetValue>k__BackingField: 0
+    <isCompleted>k__BackingField: 0
+  - <objectiveId>k__BackingField: obj_locate_lieutenant
+    <description>k__BackingField: Locate the lieutenant
+    <type>k__BackingField: 3
+    <targetId>k__BackingField: lieutenant_kim
+    <targetLocationId>k__BackingField: 
+    <isOptional>k__BackingField: 0
+    <targetValue>k__BackingField: 0
+    <isCompleted>k__BackingField: 0
+  - <objectiveId>k__BackingField: obj_secure_blackbox
+    <description>k__BackingField: Secure the black box
+    <type>k__BackingField: 1
+    <targetId>k__BackingField: black_box
+    <targetLocationId>k__BackingField: 
+    <isOptional>k__BackingField: 0
+    <targetValue>k__BackingField: 0
+    <isCompleted>k__BackingField: 0
+  - <objectiveId>k__BackingField: obj_extract13
+    <description>k__BackingField: Final extraction
+    <type>k__BackingField: 7
+    <targetId>k__BackingField: 
+    <targetLocationId>k__BackingField: extraction_harbor
+    <isOptional>k__BackingField: 0
+    <targetValue>k__BackingField: 0
+    <isCompleted>k__BackingField: 0
+  <rewardMoney>k__BackingField: 150000
+  <rewardItemIds>k__BackingField: []
+  <rewardUpgradeIds>k__BackingField: []
+  <rewardXP>k__BackingField: 750
+  <unlocksMissionIds>k__BackingField: []
+  <unlockRegionId>k__BackingField: 
+  <unlockedByDefault>k__BackingField: 0
+  <difficulty>k__BackingField: 4
+  <timeLimitMinutes>k__BackingField: 15
+  <initialState>k__BackingField: 0
+  <repeatable>k__BackingField: 0

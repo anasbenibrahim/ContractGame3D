@@ -1,0 +1,20 @@
+{
+    "name": "Contract.Core",
+    "references": [
+        "Contract.Data",
+        "Contract.Contracts",
+        "UnityEngine.CoreModule",
+        "UnityEngine",
+        "Unity.InputSystem",
+        "UnityEngine.UIModule",
+        "Unity.TextMeshPro",
+        "UnityEngine.UI"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

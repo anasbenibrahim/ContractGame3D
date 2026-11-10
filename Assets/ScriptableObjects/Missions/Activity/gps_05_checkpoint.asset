@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af3d20b58d8cf8c59a510781db4076d8, type: 3}
+  m_Name: gps_05_checkpoint
+  m_EditorClassIdentifier: Contract.Data::Contract.Data.MissionData
+  <missionId>k__BackingField: gps_05_checkpoint
+  <missionName>k__BackingField: Checkpoint Discovery
+  <description>k__BackingField: Reach a GPS checkpoint. Mark a safe, public spot in the activity screen, walk on, then come back to it.
+  <regionId>k__BackingField: 
+  <subjectId>k__BackingField: 
+  <subjectName>k__BackingField: 
+  <category>k__BackingField: 1
+  <koreanName>k__BackingField: "\uCCB4\uD06C\uD3EC\uC778\uD2B8 \uBC1C\uACAC"
+  <requiredItemIds>k__BackingField: []
+  <minLevel>k__BackingField: 0
+  <requiresRegionUnlocked>k__BackingField: 0
+  <objectives>k__BackingField:
+  - <objectiveId>k__BackingField: main
+    <description>k__BackingField: Reach a GPS checkpoint. Mark a safe, public spot in the activity screen, walk on, then come back to it.
+    <type>k__BackingField: 11
+    <targetId>k__BackingField: 
+    <targetLocationId>k__BackingField: 
+    <isOptional>k__BackingField: 0
+    <targetValue>k__BackingField: 1
+    <isCompleted>k__BackingField: 0
+  <rewardMoney>k__BackingField: 0
+  <rewardItemIds>k__BackingField: []
+  <rewardUpgradeIds>k__BackingField: []
+  <rewardXP>k__BackingField: 150
+  <unlocksMissionIds>k__BackingField: []
+  <unlockRegionId>k__BackingField: 
+  <unlockedByDefault>k__BackingField: 1
+  <difficulty>k__BackingField: 1
+  <timeLimitMinutes>k__BackingField: 0
+  <initialState>k__BackingField: 0
+  <repeatable>k__BackingField: 0

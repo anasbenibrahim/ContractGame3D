@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 426a47f96b917f3cc8797a792b7b8884, type: 3}
+  m_Name: ActivityRewards
+  m_EditorClassIdentifier: Contract.Activity::Contract.Activity.ActivityRewardsConfig
+  milestones:
+  - id: walk_100m
+    titleKorean: "\uCCAB \uAC78\uC74C"
+    title: First 100 m
+    measure: 0
+    threshold: 100
+    repeat: 0
+    money: 0
+    xp: 50
+    unlockRegionId: 
+    unlockMissionId: gps_02_explorer
+    itemId: 
+  - id: walk_500m
+    titleKorean: "\uD0D0\uD5D8\uAC00"
+    title: 500 m walked
+    measure: 0
+    threshold: 500
+    repeat: 0
+    money: 5000
+    xp: 100
+    unlockRegionId: 
+    unlockMissionId: 
+    itemId: 
+  - id: walk_1km
+    titleKorean: "\uAE34 \uC5EC\uC815"
+    title: 1 km walked
+    measure: 0
+    threshold: 1000
+    repeat: 0
+    money: 0
+    xp: 200
+    unlockRegionId: region_industrial
+    unlockMissionId: 
+    itemId: 
+  - id: steps_2000
+    titleKorean: "\uAC78\uC74C \uB3C4\uC804"
+    title: Every 2,000 steps
+    measure: 1
+    threshold: 2000
+    repeat: 1
+    money: 0
+    xp: 100
+    unlockRegionId: 
+    unlockMissionId: 
+    itemId: 
+  areaSize: 100
+  areasPerDiscovery: 5
+  placeAccuracy: 30
+  collectibles:
+  - {fileID: 11400000, guid: e8ee9521567f533b9a1be83a865a7efe, type: 2}
+  - {fileID: 11400000, guid: a0b0f30d69f56a37f93d03939a4fff88, type: 2}
+  - {fileID: 11400000, guid: 444d668bbe2ee2344a06bf11f61fe057, type: 2}
+  - {fileID: 11400000, guid: ce990b42ef9aca0568015c7f1cebeeeb, type: 2}
+  - {fileID: 11400000, guid: 554551cbebe153b38bf2a725a43cb737, type: 2}
+  - {fileID: 11400000, guid: e323be6b9f73a38a4b27bac81eda4a00, type: 2}
+  - {fileID: 11400000, guid: 6dd8bfaeeaacf7fbc81664ddffb248e9, type: 2}
+  - {fileID: 11400000, guid: 54083f664bf9d94e0907903f05dadb3f, type: 2}
+  collectibleXp: 40
+  collectibleMoney: 1000
+  checkpoints: []
+  playerCheckpointRadius: 25
+  playerCheckpointWalk: 150
+  playerCheckpointAway: 80
+  playerCheckpointMoney: 5000
+  playerCheckpointXp: 100
+  maxPlayerCheckpoints: 5

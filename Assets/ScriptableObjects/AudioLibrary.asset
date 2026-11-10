@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80c230aa380dccc7280e69f4d7c638c7, type: 3}
+  m_Name: AudioLibrary
+  m_EditorClassIdentifier: Contract.Data::Contract.Data.AudioLibrary
+  <musicTracks>k__BackingField:
+  - id: music_menu
+    clip: {fileID: 8300000, guid: f4abd7799852de53aa0eebc126162ef6, type: 3}
+    volume: 0.9
+    pitch: 1
+  - id: music_city
+    clip: {fileID: 8300000, guid: 4c1c063d69f0e42d7a18575823d36c24, type: 3}
+    volume: 0.9
+    pitch: 1
+  - id: music_tension
+    clip: {fileID: 8300000, guid: 3110735115faaa94ebbacf2a2f7296ed, type: 3}
+    volume: 0.9
+    pitch: 1
+  <sfxEntries>k__BackingField:
+  - id: footstep_1
+    clip: {fileID: 8300000, guid: d16c4238e2239a15194c9c09ca9e98f7, type: 3}
+    volume: 0.7
+    pitch: 1
+  - id: footstep_2
+    clip: {fileID: 8300000, guid: e6cd83ad54db812cb920d2c1bbc49dc2, type: 3}
+    volume: 0.7
+    pitch: 1
+  - id: footstep_3
+    clip: {fileID: 8300000, guid: 2ee3e10313f5be73d8eb2a3465e98f5a, type: 3}
+    volume: 0.7
+    pitch: 1
+  - id: footstep_4
+    clip: {fileID: 8300000, guid: 52d40d469548fa907b10baf5a3e20ce3, type: 3}
+    volume: 0.7
+    pitch: 1
+  - id: land_impact
+    clip: {fileID: 8300000, guid: ac3d51435c3d1bf8088faa003a0c1794, type: 3}
+    volume: 0.8
+    pitch: 1
+  - id: ui_hover
+    clip: {fileID: 8300000, guid: c43c31a6875d77bfe9b209351df3db60, type: 3}
+    volume: 0.12
+    pitch: 1
+  - id: ui_click
+    clip: {fileID: 8300000, guid: 8af0b7c64e689f494aa6cb73ba915a47, type: 3}
+    volume: 0.25
+    pitch: 1
+  - id: ui_back
+    clip: {fileID: 8300000, guid: 388105b8d361bc0a78020e2a7d794e76, type: 3}
+    volume: 0.25
+    pitch: 1
+  - id: ui_error
+    clip: {fileID: 8300000, guid: 8de5710c89e218896ae9cbc4b1eb8801, type: 3}
+    volume: 0.25
+    pitch: 1
+  - id: interact
+    clip: {fileID: 8300000, guid: 47abd52b499b3d62d9646adbcda44cb6, type: 3}
+    volume: 0.3
+    pitch: 1
+  - id: hold_complete
+    clip: {fileID: 8300000, guid: 2a5ff98d4af276da68526caaa9f78459, type: 3}
+    volume: 0.6
+    pitch: 1
+  - id: pickup
+    clip: {fileID: 8300000, guid: 68dc368cb05497726b8b0d46a9a30294, type: 3}
+    volume: 0.6
+    pitch: 1
+  - id: photo_shutter
+    clip: {fileID: 8300000, guid: 52e22c7c5ec429d718b1433e56b760e1, type: 3}
+    volume: 0.8
+    pitch: 1
+  - id: objective_complete
+    clip: {fileID: 8300000, guid: 5ba9bf37cb3673f6fb491d820e0701fb, type: 3}
+    volume: 0.6
+    pitch: 1
+  - id: contract_complete
+    clip: {fileID: 8300000, guid: 202620dfdb5cf5b9c979be603d9fb6f5, type: 3}
+    volume: 0.7
+    pitch: 1
+  - id: contract_failed
+    clip: {fileID: 8300000, guid: e429791bcebd084d795e98e84703c2e8, type: 3}
+    volume: 0.6
+    pitch: 1
+  - id: alert
+    clip: {fileID: 8300000, guid: 4f240ce881951efe9bd389288b316807, type: 3}
+    volume: 0.75
+    pitch: 1
+  - id: suspicion
+    clip: {fileID: 8300000, guid: bc4986a8b777b0078ab4670be2210554, type: 3}
+    volume: 0.45
+    pitch: 1
+  - id: cash
+    clip: {fileID: 8300000, guid: 75ce4c7ac93672d52a87ceef5af942d7, type: 3}
+    volume: 0.6
+    pitch: 1
+  - id: purchase
+    clip: {fileID: 8300000, guid: 5c1c9ff9c2e95427a9985b39c55890bd, type: 3}
+    volume: 0.6
+    pitch: 1
+  - id: save
+    clip: {fileID: 8300000, guid: 1108faa869bd544dd97658be45c313c7, type: 3}
+    volume: 0.4
+    pitch: 1
+  - id: victory
+    clip: {fileID: 8300000, guid: 9e59042fcc249d7b2b145c56ce9b96a8, type: 3}
+    volume: 0.8
+    pitch: 1
+  - id: page
+    clip: {fileID: 8300000, guid: 58b719018a0df64c6b0dfb0617b341c5, type: 3}
+    volume: 0.3
+    pitch: 1
+  <ambienceEntries>k__BackingField:
+  - id: amb_city_night
+    clip: {fileID: 8300000, guid: eb82ddcf4a781191a80032a5563c87a1, type: 3}
+    volume: 0.9
+    pitch: 1
+  - id: amb_interior
+    clip: {fileID: 8300000, guid: c4085ff01ba0c4a92a86f28d96bf0940, type: 3}
+    volume: 0.9
+    pitch: 1
+  <defaultMusic>k__BackingField:
+    id: 
+    clip: {fileID: 0}
+    volume: 1
+    pitch: 1
+  <defaultAmbience>k__BackingField:
+    id: 
+    clip: {fileID: 0}
+    volume: 1
+    pitch: 1

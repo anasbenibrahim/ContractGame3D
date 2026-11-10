@@ -1,0 +1,16 @@
+{
+    "name": "Contract.Interaction",
+    "references": [
+        "Contract.Core",
+        "Contract.Data",
+        "UnityEngine.CoreModule",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

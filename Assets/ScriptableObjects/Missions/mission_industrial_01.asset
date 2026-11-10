@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af3d20b58d8cf8c59a510781db4076d8, type: 3}
+  m_Name: mission_industrial_01
+  m_EditorClassIdentifier: Contract.Data::Contract.Data.MissionData
+  <missionId>k__BackingField: mission_industrial_01
+  <missionName>k__BackingField: Stockroom Job
+  <description>k__BackingField: Recover a stolen cosmetics formula from a guarded Myeongdong stockroom.
+  <regionId>k__BackingField: region_industrial
+  <subjectId>k__BackingField: subject_guard_captain
+  <subjectName>k__BackingField: Captain Han Dae-sung
+  <category>k__BackingField: 0
+  <koreanName>k__BackingField: 
+  <requiredItemIds>k__BackingField: []
+  <minLevel>k__BackingField: 0
+  <requiresRegionUnlocked>k__BackingField: 1
+  <objectives>k__BackingField:
+  - <objectiveId>k__BackingField: obj_enter_warehouse
+    <description>k__BackingField: Enter the warehouse
+    <type>k__BackingField: 0
+    <targetId>k__BackingField: 
+    <targetLocationId>k__BackingField: warehouse_main
+    <isOptional>k__BackingField: 0
+    <targetValue>k__BackingField: 0
+    <isCompleted>k__BackingField: 0
+  - <objectiveId>k__BackingField: obj_locate_captain
+    <description>k__BackingField: Locate the guard captain
+    <type>k__BackingField: 3
+    <targetId>k__BackingField: guard_captain
+    <targetLocationId>k__BackingField: 
+    <isOptional>k__BackingField: 0
+    <targetValue>k__BackingField: 0
+    <isCompleted>k__BackingField: 0
+  - <objectiveId>k__BackingField: obj_steal_prototype
+    <description>k__BackingField: Steal the prototype
+    <type>k__BackingField: 1
+    <targetId>k__BackingField: prototype_tech
+    <targetLocationId>k__BackingField: 
+    <isOptional>k__BackingField: 0
+    <targetValue>k__BackingField: 0
+    <isCompleted>k__BackingField: 0
+  - <objectiveId>k__BackingField: obj_extract4
+    <description>k__BackingField: Reach extraction point
+    <type>k__BackingField: 7
+    <targetId>k__BackingField: 
+    <targetLocationId>k__BackingField: extraction_industrial
+    <isOptional>k__BackingField: 0
+    <targetValue>k__BackingField: 0
+    <isCompleted>k__BackingField: 0
+  <rewardMoney>k__BackingField: 35000
+  <rewardItemIds>k__BackingField: []
+  <rewardUpgradeIds>k__BackingField: []
+  <rewardXP>k__BackingField: 180
+  <unlocksMissionIds>k__BackingField: []
+  <unlockRegionId>k__BackingField: 
+  <unlockedByDefault>k__BackingField: 0
+  <difficulty>k__BackingField: 2
+  <timeLimitMinutes>k__BackingField: 15
+  <initialState>k__BackingField: 0
+  <repeatable>k__BackingField: 0

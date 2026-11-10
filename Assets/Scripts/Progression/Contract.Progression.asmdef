@@ -1,0 +1,18 @@
+{
+	"name": "Contract.Progression",
+	"references": [
+		"Contract.Core",
+		"Contract.Data",
+		"Contract.Contracts",
+		"Contract.Economy",
+		"Contract.Player",
+		"UnityEngine.CoreModule"
+	],
+	"includePlatforms": [],
+	"excludePlatforms": [],
+	"allowUnsafeCode": false,
+	"overrideReferences": false,
+	"precompiledReferences": [],
+	"autoReferenced": true,
+	"defineConstraints": []
+}

@@ -1,0 +1,16 @@
+{
+	"name": "Contract.Regions",
+	"references": [
+		"Contract.Core",
+		"Contract.Data",
+		"Contract.Contracts",
+		"UnityEngine.CoreModule"
+	],
+	"includePlatforms": [],
+	"excludePlatforms": [],
+	"allowUnsafeCode": false,
+	"overrideReferences": false,
+	"precompiledReferences": [],
+	"autoReferenced": true,
+	"defineConstraints": []
+}

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af3d20b58d8cf8c59a510781db4076d8, type: 3}
+  m_Name: gps_03_long_journey
+  m_EditorClassIdentifier: Contract.Data::Contract.Data.MissionData
+  <missionId>k__BackingField: gps_03_long_journey
+  <missionName>k__BackingField: Long Journey
+  <description>k__BackingField: Walk a full kilometre. It opens up a new part of Seoul.
+  <regionId>k__BackingField: 
+  <subjectId>k__BackingField: 
+  <subjectName>k__BackingField: 
+  <category>k__BackingField: 1
+  <koreanName>k__BackingField: "\uAE34 \uC5EC\uC815"
+  <requiredItemIds>k__BackingField: []
+  <minLevel>k__BackingField: 0
+  <requiresRegionUnlocked>k__BackingField: 0
+  <objectives>k__BackingField:
+  - <objectiveId>k__BackingField: main
+    <description>k__BackingField: Walk a full kilometre. It opens up a new part of Seoul.
+    <type>k__BackingField: 9
+    <targetId>k__BackingField: 
+    <targetLocationId>k__BackingField: 
+    <isOptional>k__BackingField: 0
+    <targetValue>k__BackingField: 1000
+    <isCompleted>k__BackingField: 0
+  <rewardMoney>k__BackingField: 0
+  <rewardItemIds>k__BackingField: []
+  <rewardUpgradeIds>k__BackingField: []
+  <rewardXP>k__BackingField: 250
+  <unlocksMissionIds>k__BackingField: []
+  <unlockRegionId>k__BackingField: region_industrial
+  <unlockedByDefault>k__BackingField: 0
+  <difficulty>k__BackingField: 1
+  <timeLimitMinutes>k__BackingField: 0
+  <initialState>k__BackingField: 0
+  <repeatable>k__BackingField: 0

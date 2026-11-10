@@ -1,0 +1,17 @@
+{
+	"name": "Contract.VFX",
+	"references": [
+		"Contract.Core",
+		"UnityEngine.CoreModule",
+		"UnityEngine.ParticleSystemModule",
+		"Unity.RenderPipelines.Core.Runtime",
+		"Unity.RenderPipelines.Universal.Runtime"
+	],
+	"includePlatforms": [],
+	"excludePlatforms": [],
+	"allowUnsafeCode": false,
+	"overrideReferences": false,
+	"precompiledReferences": [],
+	"autoReferenced": true,
+	"defineConstraints": []
+}

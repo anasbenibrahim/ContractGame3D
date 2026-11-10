@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98c635fc825f105dabb8d6d2e6aeaea4, type: 3}
+  m_Name: char_daniel_cross
+  m_EditorClassIdentifier: Contract.Data::Contract.Data.CharacterData
+  <characterId>k__BackingField: char_daniel_cross
+  <displayName>k__BackingField: Daniel Cross
+  <specialty>k__BackingField: Stealth
+  <description>k__BackingField: Ghost-like infiltrator. Enemies struggle to detect him even at close range.
+  <characterPreviewPrefab>k__BackingField: {fileID: 0}
+  <avatarSprite>k__BackingField: {fileID: 0}
+  <themeColor>k__BackingField: {r: 0.2, g: 0.5, b: 1, a: 1}
+  <appearance>k__BackingField:
+    heightScale: 1.02
+    shoulderWidth: 1.03
+    skinTone: {r: 0.84, g: 0.68, b: 0.56, a: 1}
+    hairStyle: 1
+    hairColor: {r: 0.03, g: 0.03, b: 0.035, a: 1}
+    outfit: 1
+    topColor: {r: 0.06, g: 0.06, b: 0.07, a: 1}
+    innerColor: {r: 0.5, g: 0.5, b: 0.52, a: 1}
+    bottomColor: {r: 0.05, g: 0.05, b: 0.06, a: 1}
+    shoeColor: {r: 0.08, g: 0.08, b: 0.09, a: 1}
+    accentColor: {r: 0.45, g: 0.05, b: 0.07, a: 1}
+    glasses: 0
+    faceMask: 1
+    crossBodyBag: 0
+  <moveSpeed>k__BackingField: 70
+  <sprintSpeed>k__BackingField: 75
+  <stealthRating>k__BackingField: 95
+  <intelligence>k__BackingField: 80
+  <suspicionDecay>k__BackingField: 90
+  <suspicionBuildRate>k__BackingField: 30
+  <interactionRange>k__BackingField: 80
+  <lockpickChance>k__BackingField: 85
+  <startingMoney>k__BackingField: 3000
+  <unlockedByDefault>k__BackingField: 1
+  <unlockRequirement>k__BackingField: 
+  <unlockCost>k__BackingField: 0

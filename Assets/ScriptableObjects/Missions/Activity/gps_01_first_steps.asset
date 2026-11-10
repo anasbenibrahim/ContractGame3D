@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af3d20b58d8cf8c59a510781db4076d8, type: 3}
+  m_Name: gps_01_first_steps
+  m_EditorClassIdentifier: Contract.Data::Contract.Data.MissionData
+  <missionId>k__BackingField: gps_01_first_steps
+  <missionName>k__BackingField: First Steps
+  <description>k__BackingField: 'Take your first walk with GPS Activity Mode: 100 metres anywhere safe.'
+  <regionId>k__BackingField: 
+  <subjectId>k__BackingField: 
+  <subjectName>k__BackingField: 
+  <category>k__BackingField: 1
+  <koreanName>k__BackingField: "\uCCAB \uAC78\uC74C"
+  <requiredItemIds>k__BackingField: []
+  <minLevel>k__BackingField: 0
+  <requiresRegionUnlocked>k__BackingField: 0
+  <objectives>k__BackingField:
+  - <objectiveId>k__BackingField: main
+    <description>k__BackingField: 'Take your first walk with GPS Activity Mode: 100 metres anywhere safe.'
+    <type>k__BackingField: 9
+    <targetId>k__BackingField: 
+    <targetLocationId>k__BackingField: 
+    <isOptional>k__BackingField: 0
+    <targetValue>k__BackingField: 100
+    <isCompleted>k__BackingField: 0
+  <rewardMoney>k__BackingField: 0
+  <rewardItemIds>k__BackingField: []
+  <rewardUpgradeIds>k__BackingField: []
+  <rewardXP>k__BackingField: 100
+  <unlocksMissionIds>k__BackingField:
+  - gps_02_explorer
+  <unlockRegionId>k__BackingField: 
+  <unlockedByDefault>k__BackingField: 1
+  <difficulty>k__BackingField: 1
+  <timeLimitMinutes>k__BackingField: 0
+  <initialState>k__BackingField: 0
+  <repeatable>k__BackingField: 0

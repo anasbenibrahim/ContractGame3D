@@ -1,0 +1,27 @@
+{
+    "name": "Contract.Bootstrap",
+    "references": [
+        "Contract.Core",
+        "Contract.Data",
+        "Contract.Audio",
+        "Contract.Character",
+        "Contract.Economy",
+        "Contract.Map",
+        "Contract.Missions",
+        "Contract.NPCs",
+        "Contract.Progression",
+        "Contract.Regions",
+        "Contract.SaveSystem",
+        "Contract.UI",
+        "UnityEngine.CoreModule",
+        "UnityEngine.AIModule",
+        "Contract.Player"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

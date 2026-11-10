@@ -1,0 +1,3 @@
+-nowarn:CS0618
+-nowarn:CS0619
+-nowarn:UAC0023

@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af3d20b58d8cf8c59a510781db4076d8, type: 3}
+  m_Name: mission_residential_01
+  m_EditorClassIdentifier: Contract.Data::Contract.Data.MissionData
+  <missionId>k__BackingField: mission_residential_01
+  <missionName>k__BackingField: Neighborhood Watch
+  <description>k__BackingField: Investigate a suspicious resident without alerting the community.
+  <regionId>k__BackingField: region_residential
+  <subjectId>k__BackingField: subject_teacher_yoon
+  <subjectName>k__BackingField: Yoon Ji-hye
+  <requiredItemIds>k__BackingField: []
+  <minLevel>k__BackingField: 0
+  <requiresRegionUnlocked>k__BackingField: 1
+  <objectives>k__BackingField:
+  - <objectiveId>k__BackingField: obj_enter_apartment
+    <description>k__BackingField: Enter the apartment complex
+    <type>k__BackingField: 0
+    <targetId>k__BackingField: 
+    <targetLocationId>k__BackingField: apartment_complex
+    <isOptional>k__BackingField: 0
+    <isCompleted>k__BackingField: 0
+  - <objectiveId>k__BackingField: obj_locate_unit
+    <description>k__BackingField: Locate the target's unit
+    <type>k__BackingField: 3
+    <targetId>k__BackingField: unit_404
+    <targetLocationId>k__BackingField: 
+    <isOptional>k__BackingField: 0
+    <isCompleted>k__BackingField: 0
+  - <objectiveId>k__BackingField: obj_gather_evidence
+    <description>k__BackingField: Gather evidence
+    <type>k__BackingField: 4
+    <targetId>k__BackingField: evidence_folder
+    <targetLocationId>k__BackingField: 
+    <isOptional>k__BackingField: 0
+    <isCompleted>k__BackingField: 0
+  - <objectiveId>k__BackingField: obj_extract6
+    <description>k__BackingField: Reach extraction point
+    <type>k__BackingField: 7
+    <targetId>k__BackingField: 
+    <targetLocationId>k__BackingField: extraction_residential
+    <isOptional>k__BackingField: 0
+    <isCompleted>k__BackingField: 0
+  <rewardMoney>k__BackingField: 30000
+  <rewardItemIds>k__BackingField: []
+  <rewardUpgradeIds>k__BackingField: []
+  <rewardXP>k__BackingField: 160
+  <difficulty>k__BackingField: 2
+  <timeLimitMinutes>k__BackingField: 20
+  <initialState>k__BackingField: 0
+  <repeatable>k__BackingField: 0

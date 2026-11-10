@@ -1,0 +1,19 @@
+{
+    "name": "Contract.Activity",
+    "references": [
+        "Contract.Core",
+        "Contract.Contracts",
+        "Contract.Data",
+        "Unity.InputSystem",
+        "Contract.Regions"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

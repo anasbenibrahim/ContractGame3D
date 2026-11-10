@@ -1,0 +1,246 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5784169781412233951
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 687259655447467486}
+  - component: {fileID: 1488339211674515985}
+  - component: {fileID: 7309839783028434008}
+  - component: {fileID: 1821306177602195738}
+  - component: {fileID: 8397801384629034608}
+  - component: {fileID: 347114853369011807}
+  - component: {fileID: 1739813306402711761}
+  - component: {fileID: 8855551281690584413}
+  - component: {fileID: 8351532118672728567}
+  m_Layer: 9
+  m_Name: Civilian
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &687259655447467486
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5784169781412233951}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5351012669207224179}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!195 &1488339211674515985
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5784169781412233951}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.3
+  m_Speed: 1.4
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 1.8
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!136 &7309839783028434008
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5784169781412233951}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.3
+  m_Height: 1.8
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.9, z: 0}
+--- !u!54 &1821306177602195738
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5784169781412233951}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &8397801384629034608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5784169781412233951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcd78c76e1618e0f09cd94c057768c61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Contract.NPCs::Contract.NPCs.NpcLocomotion
+--- !u!114 &347114853369011807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5784169781412233951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 110b475fc2cb5b06686daa8f0b012540, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Contract.NPCs::Contract.NPCs.NpcSpeech
+  height: 2.25
+--- !u!114 &1739813306402711761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5784169781412233951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac4a0c3d9481eefdfa4bad5f4f15e19a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Contract.NPCs::Contract.NPCs.NpcController
+  npcId: 
+  npcType: 0
+  archetype: 0
+  randomAppearance: 1
+  appearance:
+    heightScale: 1
+    shoulderWidth: 1
+    skinTone: {r: 0.86, g: 0.7, b: 0.58, a: 1}
+    hairStyle: 0
+    hairColor: {r: 0.06, g: 0.05, b: 0.05, a: 1}
+    outfit: 0
+    topColor: {r: 0.12, g: 0.12, b: 0.14, a: 1}
+    innerColor: {r: 0.9, g: 0.9, b: 0.9, a: 1}
+    bottomColor: {r: 0.1, g: 0.1, b: 0.12, a: 1}
+    shoeColor: {r: 0.95, g: 0.95, b: 0.95, a: 1}
+    accentColor: {r: 0.86, g: 0.12, b: 0.16, a: 1}
+    glasses: 0
+    faceMask: 0
+    crossBodyBag: 0
+  baseMaterial: {fileID: 0}
+  appearanceSeed: 0
+  patrolPoints: []
+  routeDwell: {x: 4, y: 9}
+  walkSpeed: 1.4
+  hurrySpeed: 3.2
+  maxDestinationDistance: 70
+  guardGroup: 
+  maxSuspicion: 100
+  suspicionGainPerSecond: 45
+  suspicionDecayRate: 15
+  visionRange: 14
+  visionAngle: 110
+--- !u!114 &8855551281690584413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5784169781412233951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc1b5ff59e075dbf096c4d57619b467e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Contract.NPCs::Contract.NPCs.CivilianInteractable
+--- !u!114 &8351532118672728567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5784169781412233951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cec824a423a151da9994fdc3481fbdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Contract.Map::Contract.Map.MapIcon
+  iconId: civilian
+  iconType: 3
+  label: "\uC2DC\uBBFC \xB7 Civilian"
+  missionId: 
+  trackId: 
+  showOnMinimap: 1
+  showOnFullMap: 1
+  clampToMinimapEdge: 0
+--- !u!1 &7173876992252801181
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5351012669207224179}
+  m_Layer: 0
+  m_Name: Visual
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5351012669207224179
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7173876992252801181}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 687259655447467486}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

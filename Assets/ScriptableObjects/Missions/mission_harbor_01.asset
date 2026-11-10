@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af3d20b58d8cf8c59a510781db4076d8, type: 3}
+  m_Name: mission_harbor_01
+  m_EditorClassIdentifier: Contract.Data::Contract.Data.MissionData
+  <missionId>k__BackingField: mission_harbor_01
+  <missionName>k__BackingField: Final Shipment
+  <description>k__BackingField: Document the final contraband shipment before it leaves the harbor.
+  <regionId>k__BackingField: region_harbor
+  <subjectId>k__BackingField: subject_captain_lee
+  <subjectName>k__BackingField: Captain Lee Chang-ho
+  <category>k__BackingField: 0
+  <koreanName>k__BackingField: 
+  <requiredItemIds>k__BackingField: []
+  <minLevel>k__BackingField: 0
+  <requiresRegionUnlocked>k__BackingField: 1
+  <objectives>k__BackingField:
+  - <objectiveId>k__BackingField: obj_board_ship
+    <description>k__BackingField: Board the cargo ship
+    <type>k__BackingField: 0
+    <targetId>k__BackingField: 
+    <targetLocationId>k__BackingField: cargo_ship
+    <isOptional>k__BackingField: 0
+    <targetValue>k__BackingField: 0
+    <isCompleted>k__BackingField: 0
+  - <objectiveId>k__BackingField: obj_locate_captain
+    <description>k__BackingField: Locate the captain
+    <type>k__BackingField: 3
+    <targetId>k__BackingField: captain_lee
+    <targetLocationId>k__BackingField: 
+    <isOptional>k__BackingField: 0
+    <targetValue>k__BackingField: 0
+    <isCompleted>k__BackingField: 0
+  - <objectiveId>k__BackingField: obj_disable_engines
+    <description>k__BackingField: Disable the ship's engines
+    <type>k__BackingField: 2
+    <targetId>k__BackingField: engine_room
+    <targetLocationId>k__BackingField: 
+    <isOptional>k__BackingField: 0
+    <targetValue>k__BackingField: 0
+    <isCompleted>k__BackingField: 0
+  - <objectiveId>k__BackingField: obj_seize_manifest
+    <description>k__BackingField: Seize the manifest
+    <type>k__BackingField: 1
+    <targetId>k__BackingField: shipping_manifest
+    <targetLocationId>k__BackingField: 
+    <isOptional>k__BackingField: 0
+    <targetValue>k__BackingField: 0
+    <isCompleted>k__BackingField: 0
+  - <objectiveId>k__BackingField: obj_extract11
+    <description>k__BackingField: Reach extraction point
+    <type>k__BackingField: 7
+    <targetId>k__BackingField: 
+    <targetLocationId>k__BackingField: extraction_harbor
+    <isOptional>k__BackingField: 0
+    <targetValue>k__BackingField: 0
+    <isCompleted>k__BackingField: 0
+  <rewardMoney>k__BackingField: 125000
+  <rewardItemIds>k__BackingField: []
+  <rewardUpgradeIds>k__BackingField: []
+  <rewardXP>k__BackingField: 600
+  <unlocksMissionIds>k__BackingField: []
+  <unlockRegionId>k__BackingField: 
+  <unlockedByDefault>k__BackingField: 0
+  <difficulty>k__BackingField: 5
+  <timeLimitMinutes>k__BackingField: 20
+  <initialState>k__BackingField: 0
+  <repeatable>k__BackingField: 0

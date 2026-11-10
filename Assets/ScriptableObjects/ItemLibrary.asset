@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55cb39a0ccd04ae609d08811ac1011b9, type: 3}
+  m_Name: ItemLibrary
+  m_EditorClassIdentifier: Contract.Items::Contract.Items.ItemLibrary
+  <items>k__BackingField:
+  - id: black_box
+    data: {fileID: 11400000, guid: 07a9b984f9fdecd5c8cf9100bc2d0fd5, type: 2}
+  - id: calming_pills
+    data: {fileID: 11400000, guid: 2bb3ac27d58afa74297ed9987059ee89, type: 2}
+  - id: data_drive
+    data: {fileID: 11400000, guid: 4ef29aa8bec213a62b438128943dbd3f, type: 2}
+  - id: documents_evidence
+    data: {fileID: 11400000, guid: 9718e044562c73657a9d7acfecd9022b, type: 2}
+  - id: emp_grenade
+    data: {fileID: 11400000, guid: 42ea5697d0a4a46ce8fa31f8821d50d0, type: 2}
+  - id: evidence_folder
+    data: {fileID: 11400000, guid: bc22cfd6ddad7c138a2b59997ec0a19a, type: 2}
+  - id: grapple_hook
+    data: {fileID: 11400000, guid: d338ee11babd85c00a04eb81964878ed, type: 2}
+  - id: hacking_device
+    data: {fileID: 11400000, guid: 25d3a3248cbb035ec89503f917848a8f, type: 2}
+  - id: keycard
+    data: {fileID: 11400000, guid: 60e77c8e3ddcaaede8435de94eab65b5, type: 2}
+  - id: lockpick_set
+    data: {fileID: 11400000, guid: a39ceb82c083d40e89171662bb55bbd9, type: 2}
+  - id: master_keycard
+    data: {fileID: 11400000, guid: d095151c5de28a970a0593596021237f, type: 2}
+  - id: package_evidence
+    data: {fileID: 11400000, guid: 761626789c254cde8ba9aeb12c6d27a0, type: 2}
+  - id: shipping_manifest
+    data: {fileID: 11400000, guid: 51d0b4adf4eb8b2a59d7dc7cbf571ecd, type: 2}
+  - id: silenced_pistol
+    data: {fileID: 11400000, guid: fc7142b43a5d46944a3928d28cc210e5, type: 2}
+  - id: smoke_grenade
+    data: {fileID: 11400000, guid: 2b105a47b7cc6b9ff848e0685c441075, type: 2}
+  - id: stamina_shot
+    data: {fileID: 11400000, guid: 7dcd96778efc3fa4fa9b0f8b85a067c9, type: 2}
+  - id: star_of_seoul
+    data: {fileID: 11400000, guid: 069d3f6f3058f6d0bba9e44ce8151297, type: 2}
+  - id: vault_code
+    data: {fileID: 11400000, guid: d42bf35640d962dbcae499680ef505e2, type: 2}

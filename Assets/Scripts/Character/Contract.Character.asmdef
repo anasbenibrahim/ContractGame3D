@@ -1,0 +1,15 @@
+{
+	"name": "Contract.Character",
+	"references": [
+		"Contract.Core",
+		"Contract.Data",
+		"UnityEngine.CoreModule"
+	],
+	"includePlatforms": [],
+	"excludePlatforms": [],
+	"allowUnsafeCode": false,
+	"overrideReferences": false,
+	"precompiledReferences": [],
+	"autoReferenced": true,
+	"defineConstraints": []
+}

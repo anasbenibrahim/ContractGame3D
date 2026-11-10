@@ -1,0 +1,23 @@
+{
+    "name": "Contract.NPCs",
+    "references": [
+        "Contract.Core",
+        "Contract.Contracts",
+        "Contract.Interaction",
+        "UnityEngine.CoreModule",
+        "UnityEngine.AIModule",
+        "UnityEngine.AnimationModule",
+        "Contract.Data",
+        "Contract.Player",
+        "Contract.Missions",
+        "Unity.TextMeshPro",
+        "Contract.Map"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

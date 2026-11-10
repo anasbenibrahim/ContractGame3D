@@ -1,0 +1,46 @@
+{
+    "name": "Contract.Tests.PlayMode",
+    "rootNamespace": "Contract.Tests",
+    "references": [
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner",
+        "Contract.Core",
+        "Contract.Data",
+        "Contract.Character",
+        "Contract.Missions",
+        "Contract.Regions",
+        "Contract.Progression",
+        "Contract.Economy",
+        "Contract.Audio",
+        "Contract.Map",
+        "Contract.UI",
+        "Unity.TextMeshPro",
+        "Contract.Player",
+        "Contract.Camera",
+        "Contract.Interaction",
+        "Unity.InputSystem",
+        "Contract.NPCs",
+        "Unity.AI.Navigation",
+        "UnityEngine.UI",
+        "Contract.SaveSystem",
+        "Contract.Contracts",
+        "Contract.VFX",
+        "Unity.RenderPipelines.Core.Runtime",
+        "Unity.RenderPipelines.Universal.Runtime",
+        "Contract.Performance",
+        "Contract.Activity"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

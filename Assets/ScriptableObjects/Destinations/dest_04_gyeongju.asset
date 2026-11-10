@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ee2c42d0c45bad81b4e4bf8765b5d47, type: 3}
+  m_Name: dest_04_gyeongju
+  m_EditorClassIdentifier: Contract.Data::Contract.Data.DestinationData
+  <destinationId>k__BackingField: dest_gyeongju
+  <displayName>k__BackingField: Gyeongju
+  <koreanName>k__BackingField: "\uACBD\uC8FC"
+  <description>k__BackingField: "The old Silla capital: royal burial mounds, Hwangnidan-gil's hanok caf\xE9s and lantern-lit Woljeonggyo bridge."
+  <preview>k__BackingField: {fileID: 0}
+  <unlockCost>k__BackingField: 120000
+  <unlockedByDefault>k__BackingField: 0
+  <districts>k__BackingField: []
+  <plannedDistricts>k__BackingField:
+  - "Hwangnidan-gil \uD669\uB9AC\uB2E8\uAE38"
+  - "Woljeonggyo \uC6D4\uC815\uAD50"
+  <loadingTips>k__BackingField: []
+  <themeColor>k__BackingField: {r: 0.75, g: 0.6, b: 0.35, a: 1}

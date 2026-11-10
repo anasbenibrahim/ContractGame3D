@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af3d20b58d8cf8c59a510781db4076d8, type: 3}
+  m_Name: mission_residential_03
+  m_EditorClassIdentifier: Contract.Data::Contract.Data.MissionData
+  <missionId>k__BackingField: mission_residential_03
+  <missionName>k__BackingField: Safe House Compromise
+  <description>k__BackingField: Your safe house has been discovered. Extract with the evidence before cleanup crew arrives.
+  <regionId>k__BackingField: region_residential
+  <subjectId>k__BackingField: subject_cleaner_park
+  <subjectName>k__BackingField: Park Cleaner Team
+  <requiredItemIds>k__BackingField: []
+  <minLevel>k__BackingField: 0
+  <requiresRegionUnlocked>k__BackingField: 1
+  <objectives>k__BackingField:
+  - <objectiveId>k__BackingField: obj_gather_evidence2
+    <description>k__BackingField: Gather all evidence
+    <type>k__BackingField: 1
+    <targetId>k__BackingField: evidence_cache
+    <targetLocationId>k__BackingField: 
+    <isOptional>k__BackingField: 0
+    <isCompleted>k__BackingField: 0
+  - <objectiveId>k__BackingField: obj_evade_crew
+    <description>k__BackingField: Evade the cleanup crew
+    <type>k__BackingField: 8
+    <targetId>k__BackingField: 
+    <targetLocationId>k__BackingField: 
+    <isOptional>k__BackingField: 0
+    <isCompleted>k__BackingField: 0
+  - <objectiveId>k__BackingField: obj_extract8
+    <description>k__BackingField: Reach extraction point
+    <type>k__BackingField: 7
+    <targetId>k__BackingField: 
+    <targetLocationId>k__BackingField: extraction_residential
+    <isOptional>k__BackingField: 0
+    <isCompleted>k__BackingField: 0
+  <rewardMoney>k__BackingField: 60000
+  <rewardItemIds>k__BackingField: []
+  <rewardUpgradeIds>k__BackingField: []
+  <rewardXP>k__BackingField: 300
+  <difficulty>k__BackingField: 4
+  <timeLimitMinutes>k__BackingField: 8
+  <initialState>k__BackingField: 0
+  <repeatable>k__BackingField: 0

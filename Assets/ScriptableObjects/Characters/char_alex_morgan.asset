@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98c635fc825f105dabb8d6d2e6aeaea4, type: 3}
+  m_Name: char_alex_morgan
+  m_EditorClassIdentifier: Contract.Data::Contract.Data.CharacterData
+  <characterId>k__BackingField: char_alex_morgan
+  <displayName>k__BackingField: Alex Morgan
+  <specialty>k__BackingField: Speed
+  <description>k__BackingField: Former Olympic sprinter turned operative. Unmatched movement speed and agility.
+  <characterPreviewPrefab>k__BackingField: {fileID: 0}
+  <avatarSprite>k__BackingField: {fileID: 0}
+  <themeColor>k__BackingField: {r: 1, g: 0.2, b: 0.2, a: 1}
+  <appearance>k__BackingField:
+    heightScale: 0.98
+    shoulderWidth: 1
+    skinTone: {r: 0.88, g: 0.72, b: 0.6, a: 1}
+    hairStyle: 0
+    hairColor: {r: 0.12, g: 0.08, b: 0.06, a: 1}
+    outfit: 0
+    topColor: {r: 0.42, g: 0.06, b: 0.08, a: 1}
+    innerColor: {r: 0.94, g: 0.94, b: 0.92, a: 1}
+    bottomColor: {r: 0.32, g: 0.38, b: 0.48, a: 1}
+    shoeColor: {r: 0.95, g: 0.95, b: 0.95, a: 1}
+    accentColor: {r: 0.92, g: 0.88, b: 0.8, a: 1}
+    glasses: 0
+    faceMask: 0
+    crossBodyBag: 1
+  <moveSpeed>k__BackingField: 90
+  <sprintSpeed>k__BackingField: 95
+  <stealthRating>k__BackingField: 65
+  <intelligence>k__BackingField: 70
+  <suspicionDecay>k__BackingField: 80
+  <suspicionBuildRate>k__BackingField: 60
+  <interactionRange>k__BackingField: 70
+  <lockpickChance>k__BackingField: 50
+  <startingMoney>k__BackingField: 5000
+  <unlockedByDefault>k__BackingField: 1
+  <unlockRequirement>k__BackingField: 
+  <unlockCost>k__BackingField: 0
