@@ -148,6 +148,7 @@ namespace Contract.NPCs
         {
             if (begun) return;
             begun = true;
+            AttachAgent();
 
             if (string.IsNullOrEmpty(npcId)) npcId = $"npc_{System.Guid.NewGuid().ToString("N").Substring(0, 8)}";
             speech.SetSpeakerId(npcId);
@@ -193,6 +194,16 @@ namespace Contract.NPCs
         }
 
         // ---- per-frame --------------------------------------------------------------------
+
+        /// <summary>Enables the agent on the NavMesh (the prefab keeps it disabled until the scene has loaded).</summary>
+        private void AttachAgent()
+        {
+            if (!agent.enabled)
+            {
+                if (NavMesh.SamplePosition(transform.position, out NavMeshHit hit, 3f, NavMesh.AllAreas)) transform.position = hit.position;
+                agent.enabled = true;
+            }
+        }
 
         private float attachRetry;
 

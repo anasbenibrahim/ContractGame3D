@@ -21,7 +21,11 @@ namespace Contract.Tests.EditMode
             Assert.AreEqual(AndroidSdkVersions.AndroidApiLevel26, PlayerSettings.Android.minSdkVersion, "Android 8.0+: step counter + runtime permissions");
             Assert.AreEqual(AndroidSdkVersions.AndroidApiLevelAuto, PlayerSettings.Android.targetSdkVersion, "target the newest installed SDK (Play requirement)");
             CollectionAssert.AreEqual(new[] { GraphicsDeviceType.Vulkan, GraphicsDeviceType.OpenGLES3 }, PlayerSettings.GetGraphicsAPIs(BuildTarget.Android), "Vulkan with GLES3 fallback");
-            Assert.AreEqual(MobileTextureSubtarget.ASTC, EditorUserBuildSettings.androidBuildSubtarget);
+            // The project-level formats (ProjectSettings) decide the APK's textures; the editor's
+            // androidBuildSubtarget override lives in Library/ (per machine) and "Generic" means "use these".
+            Assert.AreEqual(TextureCompressionFormat.ASTC, PlayerSettings.Android.textureCompressionFormats.FirstOrDefault(), "ASTC first");
+            CollectionAssert.Contains(PlayerSettings.Android.textureCompressionFormats, TextureCompressionFormat.ETC2, "ETC2 fallback");
+            Assert.That(EditorUserBuildSettings.androidBuildSubtarget, Is.EqualTo(MobileTextureSubtarget.ASTC).Or.EqualTo(MobileTextureSubtarget.Generic));
             Assert.IsTrue(PlayerSettings.GetStaticBatchingForPlatform(BuildTarget.Android), "static batching for the box-built city");
             Assert.IsTrue(PlayerSettings.Android.optimizedFramePacing);
             Assert.IsFalse(PlayerSettings.allowedAutorotateToPortrait);
@@ -99,6 +103,8 @@ namespace Contract.Tests.EditMode
             Assert.AreEqual(PerformanceManager.Medium, PerformanceManager.RecommendMobile("Adreno (TM) 619", 6000));
             Assert.AreEqual(PerformanceManager.Medium, PerformanceManager.RecommendMobile("Mali-G68 MC4", 4000));
             Assert.AreEqual(PerformanceManager.Low, PerformanceManager.RecommendMobile("Mali-G52 MC2", 4000));
+            Assert.AreEqual(PerformanceManager.Low, PerformanceManager.RecommendMobile("Mali-G57 MC2", 3594), "Galaxy A22 5G: measured 22-25 fps on Medium, 47-60 on Low");
+            Assert.AreEqual(PerformanceManager.Medium, PerformanceManager.RecommendMobile("Mali-G57 MC6", 6000));
             Assert.AreEqual(PerformanceManager.Low, PerformanceManager.RecommendMobile("PowerVR Rogue GE8320", 3000));
             Assert.AreEqual(PerformanceManager.Low, PerformanceManager.RecommendMobile("Adreno (TM) 750", 3000), "under 4 GB RAM");
         }

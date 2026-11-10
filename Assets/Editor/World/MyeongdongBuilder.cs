@@ -129,8 +129,18 @@ namespace Contract.Editor.World
 
         private static Scene CreateSceneFromGameWorld()
         {
-            if (AssetDatabase.LoadAssetAtPath<SceneAsset>(ScenePath) != null) AssetDatabase.DeleteAsset(ScenePath);
-            AssetDatabase.CopyAsset("Assets/Scenes/GameWorld.unity", ScenePath);
+            // Overwrite the existing scene file in place so its GUID (in the .meta) stays the same across
+            // rebuilds: deleting and copying gave Myeongdong a new GUID every time.
+            if (AssetDatabase.LoadAssetAtPath<SceneAsset>(ScenePath) != null)
+            {
+                System.IO.File.Copy("Assets/Scenes/GameWorld.unity", ScenePath, true);
+                AssetDatabase.ImportAsset(ScenePath, ImportAssetOptions.ForceUpdate);
+            }
+            else
+            {
+                AssetDatabase.CopyAsset("Assets/Scenes/GameWorld.unity", ScenePath);
+            }
+
             Scene scene = EditorSceneManager.OpenScene(ScenePath, OpenSceneMode.Single);
             // The copy still points at Gangnam's baked occlusion data, which would cull Myeongdong's
             // geometry wrongly. Clear it; OcclusionBaker bakes Myeongdong's own data.
@@ -673,12 +683,28 @@ namespace Contract.Editor.World
             AssetDatabase.SaveAssets();
         }
 
+        /// <summary>Adds the scene to the build, or refreshes its entry when the stored GUID is stale.</summary>
         public static void EnsureInBuild(string path)
         {
+            GUID guid = AssetDatabase.GUIDFromAssetPath(path);
             List<EditorBuildSettingsScene> scenes = EditorBuildSettings.scenes.ToList();
-            if (scenes.Any(s => s.path == path)) return;
-            scenes.Add(new EditorBuildSettingsScene(path, true));
+            int index = scenes.FindIndex(s => s.path == path);
+            if (index >= 0 && scenes[index].guid == guid) return;
+            if (index >= 0) scenes[index] = new EditorBuildSettingsScene(guid, true);
+            else scenes.Add(new EditorBuildSettingsScene(guid, true));
             EditorBuildSettings.scenes = scenes.ToArray();
+        }
+
+        /// <summary>Refreshes the build-settings entries of the generated scenes (GUIDs).</summary>
+        [MenuItem("CONTRACT/Setup/Refresh Build Scene List")]
+        public static void RefreshBuildScenes()
+        {
+            EnsureInBuild(ScenePath);
+            EnsureInBuild("Assets/Scenes/WorldSelection.unity");
+            // Rewrite every entry from its path so the stored GUIDs match the scenes' .meta files.
+            EditorBuildSettings.scenes = EditorBuildSettings.scenes
+                .Select(s => new EditorBuildSettingsScene(AssetDatabase.GUIDFromAssetPath(s.path), s.enabled)).ToArray();
+            AssetDatabase.SaveAssets();
         }
     }
 }

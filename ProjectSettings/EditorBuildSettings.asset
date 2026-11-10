@@ -19,7 +19,7 @@ EditorBuildSettings:
     guid: 22d80867f19544ec497253b31a0f7589
   - enabled: 1
     path: Assets/Scenes/Myeongdong.unity
-    guid: 3652895afe31023718626791a6c20ef1
+    guid: 819cb333236d9348cbb181ef7267ad1b
   - enabled: 1
     path: Assets/Scenes/WorldSelection.unity
     guid: b20d4bff8145061ba805d755229f0658

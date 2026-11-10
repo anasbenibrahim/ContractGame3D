@@ -147,7 +147,8 @@ namespace Contract.Performance
         /// Starting tier for a phone, from its GPU family and RAM (a first-launch suggestion the
         /// player can change; not measured on these devices yet): recent flagship GPUs (Adreno
         /// 730+, Mali-G710+/Immortalis, Xclipse) with 8 GB+ High; Adreno 6xx / Mali-G7x / G6x and
-        /// 4 GB+ Medium; everything else (older Mali, PowerVR, under 4 GB) Low.
+        /// 4 GB+ Medium (Mali with only 2-3 cores Low); everything else (older Mali, PowerVR,
+        /// under 4 GB) Low. Measured on one phone so far (Galaxy A22 5G, Mali-G57 MC2 -> Low).
         /// </summary>
         public static int RecommendMobile(string deviceName, int systemMemoryMB)
         {
@@ -157,6 +158,10 @@ namespace Contract.Performance
             int mali = Number(gpu, "mali-g");
             bool flagship = adreno >= 730 || mali >= 710 || gpu.Contains("immortalis") || gpu.Contains("xclipse");
             if (flagship) return systemMemoryMB >= 7500 ? High : Medium;
+            // Mali parts come in core counts ("MC2" = 2 shader cores): measured on a Galaxy A22 5G
+            // (Mali-G57 MC2): Low 47-60 fps, Medium 22-25 fps. Two or three cores -> Low.
+            int cores = Number(gpu, " mc");
+            if (mali > 0 && cores > 0 && cores <= 3) return Low;
             bool midRange = (adreno >= 610 && adreno < 730) || (mali >= 57 && mali < 710 && mali != 52);
             return midRange && systemMemoryMB >= 3500 ? Medium : Low;
         }

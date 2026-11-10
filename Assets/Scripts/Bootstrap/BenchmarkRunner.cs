@@ -96,7 +96,8 @@ namespace Contract.Bootstrap
                 if (i == 1)
                 {
                     string shot = Path.Combine(Application.persistentDataPath, $"benchmark_{QualitySettings.names[QualitySettings.GetQualityLevel()]}.png");
-                    ScreenCapture.CaptureScreenshot(shot);
+                    // Phones: CaptureScreenshot takes a path relative to the persistent data folder.
+                    ScreenCapture.CaptureScreenshot(Application.isMobilePlatform ? Path.GetFileName(shot) : shot);
                     Line($"Screenshot: {shot}");
                 }
             }

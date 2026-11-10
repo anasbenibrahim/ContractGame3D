@@ -91,6 +91,9 @@ namespace Contract.Editor.World
             agent.radius = 0.3f;
             agent.height = 1.8f;
             agent.speed = 1.4f;
+            // Enabled by NpcController.Start, once the scene's NavMesh is registered: an agent enabled
+            // during the scene load can come up before it ("no valid NavMesh", seen on the Galaxy A22).
+            agent.enabled = false;
             CapsuleCollider body = root.AddComponent<CapsuleCollider>();
             body.radius = 0.3f;
             body.height = 1.8f;

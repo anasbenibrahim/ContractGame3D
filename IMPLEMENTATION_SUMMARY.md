@@ -1,3 +1,7 @@
+> **Historical document.** This summary describes the first prototype stages (under the working
+> title "Shadow Protocol") and is no longer up to date. For the current game, see
+> [README.md](README.md) and [docs/QA_REPORT.md](docs/QA_REPORT.md).
+
 # CONTRACT: SHADOW PROTOCOL - Complete Implementation Summary
 
 ## 📊 PROJECT STATISTICS
