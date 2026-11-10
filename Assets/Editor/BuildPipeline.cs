@@ -41,12 +41,33 @@ namespace Contract.EditorTools
             BuildPlayerOptions options = new BuildPlayerOptions
             {
                 scenes = GetBuildScenes(),
-                locationPathName = Path.Combine(BuildPath, "Contract_SeoulShadows.exe"),
+                locationPathName = Path.Combine(BuildPath, "Contract_SeoulShadows_Windows/Contract_SeoulShadows.exe"),
                 target = BuildTarget.StandaloneWindows64,
                 options = BuildOptions.CompressWithLz4HC | BuildOptions.StrictMode,
             };
 
             BuildPlayerPipeline(options, "Release");
+        }
+
+        /// <summary>
+        /// Headless Windows (64-bit, Mono) build, also from Linux: exits 0 / 1.
+        /// Needs the "Windows Build Support (Mono)" module.
+        /// -executeMethod Contract.EditorTools.BuildPipeline.BuildWindowsCI
+        /// </summary>
+        public static void BuildWindowsCI()
+        {
+            BuildPlayerOptions options = new BuildPlayerOptions
+            {
+                scenes = GetBuildScenes(),
+                locationPathName = Path.Combine(BuildPath, "Contract_SeoulShadows_Windows/Contract_SeoulShadows.exe"),
+                target = BuildTarget.StandaloneWindows64,
+                options = BuildOptions.CompressWithLz4HC | BuildOptions.StrictMode,
+            };
+
+            bool ok = UnityEditor.BuildPipeline.IsBuildTargetSupported(BuildTargetGroup.Standalone, BuildTarget.StandaloneWindows64)
+                      && BuildPlayerPipeline(options, "Windows Release");
+            if (!ok) Debug.LogError("[Build] Windows build failed (is Windows Build Support installed?)");
+            EditorApplication.Exit(ok ? 0 : 1);
         }
 
         [MenuItem("CONTRACT/Build/Build Linux Standalone (Release)")]
