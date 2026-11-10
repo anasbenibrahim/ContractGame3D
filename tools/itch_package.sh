@@ -14,7 +14,9 @@ cd "$(dirname "$0")/.."
 
 OUT=Builds/itch
 VERSION=$(grep -m1 "bundleVersion:" ProjectSettings/ProjectSettings.asset | awk '{print $2}')
-rm -rf "$OUT" && mkdir -p "$OUT"
+# Clean only what this script makes (channel folders and archives): never media/ or other files.
+mkdir -p "$OUT"
+rm -rf "$OUT/windows" "$OUT/linux" "$OUT"/ContractSeoulShadows-*.zip "$OUT"/ContractSeoulShadows-*.apk
 
 stage() { # stage <source dir> <channel>
   local src=$1 channel=$2
